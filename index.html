@@ -5,8 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="projekt.js"></script>
 </head>
+<style>
+    body {background-color: cornsilk;}
+    h1 {
+        color: black;
+        font-family: 'Trebuchet MS';
+        font-size: 175%;
+        border: 3px solid bisque;
+        padding: 10px;
+        margin: 50px;
+        text-align: center;
+    }
+
+</style>
 <body>
-    
+    <h1> Hodím litrovou láhev ze špičky věžě. O kolik stupňů se láhev ohřeje, jestliže se její potenciální energie přemění na tepelnou? </h1>
+
+	<label for="vyska">Výška věže (m):</label>
+	<input type="text" id="vyska"><br><br>
+	<button onclick="zobrazObrazek()">Zobrazit obrázek</button><br><br>
+	<div id="obrazek"></div><br><br>
+	<button onclick="reseni()">Zobrazit výsledek</button><br><br>
+	<div id="vysledek"></div>
 </body>
 </html>
